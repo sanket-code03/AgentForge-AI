@@ -1,0 +1,25 @@
+backend/target/
+frontend/node_modules/
+frontend/dist/
+.env
+.env.*
+!.env.example
+!.env.sample
+/backend/src/main/resources/application.properties
+application-local.properties
+application-local.yml
+application-local.yaml
+*.pem
+*.key
+*.log
+
+# Debug and log files
+*.log
+backend/*-debug.txt
+backend/*-error.txt
+backend/*-latest.txt
+backend/*-check.txt
+backend/*-log.txt
+
+# Backup files
+*.backup
